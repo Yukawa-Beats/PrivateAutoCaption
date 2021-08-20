@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (C) PR0FESSOR-99
+# (C) Yukawa Beats
 
 import os
 from config import Config
@@ -11,12 +11,12 @@ USERNAME=Config.BOT_USERNAME
 
 @Client.on_message(filters.private & filters.command("start"))
 async def start(client, update):
-    text = f"""<b> 👋Hello {update.from_user.mention}\n\nI am an AutoCaption bot\n\nAll you have to do is add me to your channel and I will show you my power\n\nFor more info check help Button\n\n© @Mo_Tech_YT</b>"""
+    text = f"""<b> 👋ഹെലോ🙋🏻‍♂️ {update.from_user.mention}\n\nഞാൻ ഒരു ഓട്ടോ ക്യാപ്ഷൻ ബോട്ട് ആണ്🤩🤩എന്നെ ഉണ്ടാക്കിയത് @chekuthan_0405 ആണ്..👑\n\nഎന്നെ നിങ്ങളുടെ ചാനലിൽ ആഡ് ആക്ക്..പിന്നെ എന്റെ പവർ ഞാൻ കാണിച്ചു തരാം..🤪🤪\n\nബോട്ട് ക്രിയേറ്ററുടെ ചാനലിൽ ജോയിൻ ആവുക..👉 @ybdemochannel 💃🏻🕺🏻\n\n© @chekuthan_0405</b>"""
     reply_markup =  InlineKeyboardMarkup(
                                          [[
-        InlineKeyboardButton("help↗️", callback_data="heroku"),
-        InlineKeyboardButton("🗣️Group", url="t.me/mo_tech_Group"),
-        InlineKeyboardButton("Channel📢", url="t.me/mo_tech_yt")
+        InlineKeyboardButton("help ↗️", callback_data="heroku"),
+        InlineKeyboardButton("🗣️ Group", url="t.me/ybmoviesgroup"),
+        InlineKeyboardButton("Channel 📢", url="t.me/ybdemochannel")
         ]]
     )
     await update.reply_text(
