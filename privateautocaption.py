@@ -1,4 +1,4 @@
-# Mo Tech YT
+# Yukawa Beats
 
 import os
 import logging
