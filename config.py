@@ -9,5 +9,5 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "")
     CAPTION = os.environ.get("CAPTION", "@ybdemochannel @ybmoviesgroup")
     BUTTON_TEXT = os.environ.get("BUTTON", "🔻Join Channel🔻")
-    URL_LINK = os.environ.get("LINK", "T.ME/ybdemochannel")
+    URL_LINK = os.environ.get("LINK", "t.me/ybdemochannel")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
