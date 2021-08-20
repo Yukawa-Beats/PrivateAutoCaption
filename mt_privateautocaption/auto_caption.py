@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K & PR0FESS0R-99
+# (c) Shrimadhav U K & PR0FESS0R-99 & Yukawa Beats
 
 import os
 from config import Config
