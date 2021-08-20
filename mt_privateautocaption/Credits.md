@@ -2,5 +2,5 @@
 
 * THANKS TO [SpEcHiDe](https://github.com/SpEcHiDe)
 
-* THANKS TO [Mrk-YT](https://github.com/Yukawa-Beats)
+* THANKS TO [Yukawa Beats](https://github.com/Yukawa-Beats)
 
